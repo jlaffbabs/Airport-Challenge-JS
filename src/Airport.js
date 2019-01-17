@@ -7,4 +7,7 @@ class Airport {
     this.hangar.push(plane);
   };
 
+  takeoff () {
+    this.hangar.pop();
+  };
 };
